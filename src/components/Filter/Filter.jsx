@@ -1,6 +1,6 @@
 import css from './Filter.module.css';
 import { useDispatch, useSelector } from 'react-redux';
-import { qwery } from 'redux/sliceFilter';
+import { qwery } from '../../redux/sliceFilter';
 
 export const Filter = () => {
   const filter = useSelector(state => state.filter);
